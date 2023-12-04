@@ -2,5 +2,6 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     Hello world
+    <l-button>test</l-button>
   </view>
 </scroll-view>
