@@ -1,7 +1,6 @@
 <!--index.wxml-->
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    Hello world
-    <l-button>test</l-button>
+    <pic-header></pic-header>
   </view>
 </scroll-view>
