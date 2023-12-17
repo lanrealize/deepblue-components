@@ -1,1 +1,54 @@
-/* components/pic-header/pic-header.wxss */
+.pic-header-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90vw;
+  height: 25vh;
+}
+
+.pic-header-background {
+  width: 90vw;
+  height: 15vh;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+}
+
+.pic-header-image {
+  position: absolute;
+  z-index: 1;
+  height: 25vh;
+  width: 40vw;
+  overflow: hidden;
+  left: 45vw;
+  top: -2vh;
+}
+
+.pic-header-main-title {
+  position: absolute;
+  z-index: 1;
+  font-weight: bold;
+  color: white;
+  left: 8vw;
+  font-size: var(--main-font-size);
+}
+
+.pic-header-sub-title {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  left: 8vw;
+  top: 15vh;
+  font-size: var(--sub-font-size);
+  font-weight: bold;
+}
+
+.pic-header-tag {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  left: 8vw;
+  top: 8vh;
+  font-size: var(--sub-font-size);
+}

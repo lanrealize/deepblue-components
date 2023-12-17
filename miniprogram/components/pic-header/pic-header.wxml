@@ -1,2 +1,8 @@
-<!--components/pic-header/pic-header.wxml-->
-<text>components/pic-header/pic-header.wxml</text>
+<view class="pic-header-root">
+  <view class="pic-header-background"></view>
+  <image class="pic-header-image" src="/assets/cat.png" mode="aspectFit"/>
+  <view class="pic-header-main-title">This is main title</view>
+  <view class="pic-header-sub-title">This is sub title</view>
+  <view class="pic-header-tag">This is a tag</view>
+</view>
+
