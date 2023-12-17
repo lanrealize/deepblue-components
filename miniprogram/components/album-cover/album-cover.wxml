@@ -1,0 +1,4 @@
+<view class="album-cover-root">
+  <image src="/assets/trip.jpg" mode="aspectFill" class="album-cover-image"></image>
+  <view class="album-cover-title">This is a title of album cover</view>
+</view>

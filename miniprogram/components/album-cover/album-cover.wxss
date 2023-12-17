@@ -1,0 +1,22 @@
+/* components/album-cover/album-cover.wxss */
+
+.album-cover-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90vw;
+}
+
+.album-cover-image {
+  width: 90vw;
+  height: 25vh;
+  border-radius: 1rem;
+}
+
+.album-cover-title {
+  font-weight: bold;
+  margin-right: auto;
+  margin-top: 1vh;
+}

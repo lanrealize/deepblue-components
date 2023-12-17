@@ -2,5 +2,6 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <pic-header></pic-header>
+    <album-cover></album-cover>
   </view>
 </scroll-view>
