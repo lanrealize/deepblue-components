@@ -9,14 +9,35 @@
   width: 90vw;
 }
 
+.album-cover-main {
+  margin-left: auto;
+}
+
 .album-cover-image {
-  width: 90vw;
+  width: 75vw;
   height: 25vh;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .album-cover-title {
-  font-weight: bold;
-  margin-right: auto;
+  width: 74vw;
   margin-top: 1vh;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-bottom: 0.7vh;
+  color: var(--primary-color);
+}
+.album-cover-description {
+  /* background-color: lightgray; */
+  /* color: white; */
+  font-size: 10px;
+  height: 2vh;
+  width: 75vw;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  line-height: 2vh;
+  margin-top: 0.5vh;
 }

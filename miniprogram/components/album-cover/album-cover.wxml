@@ -1,4 +1,16 @@
 <view class="album-cover-root">
-  <image src="/assets/trip.jpg" mode="aspectFill" class="album-cover-image"></image>
-  <view class="album-cover-title">This is a title of album cover</view>
+  <view class="album-cover-title">主标题</view>
+  <view class="album-cover-main">
+    <image src="/assets/trip.jpg" mode="aspectFill" class="album-cover-image"></image>
+  </view>
+  <view class="album-cover-description">这是一个测试描述。</view>
+
+  <!-- <view class="album-cover-title">
+    <view style="margin-right: auto;">This is a title of album cover</view>
+    <image src="/assets/icons/heart.svg" style="width: 5vw; height: 5vw; margin-left: auto; margin-top: 0.2vh;"></image>
+    <view style="width: 1vw;"></view>
+    <view>49</view>
+  </view>
+  <view class="album-cover-statistics">
+  </view> -->
 </view>
