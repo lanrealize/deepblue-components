@@ -11,6 +11,7 @@
 
 .album-cover-main {
   margin-left: auto;
+  font-size: 0;
 }
 
 .album-cover-image {
@@ -32,12 +33,12 @@
 .album-cover-description {
   /* background-color: lightgray; */
   /* color: white; */
-  font-size: 10px;
+  font-size: 13px;
   height: 2vh;
-  width: 75vw;
+  width: 74vw;
   margin-left: auto;
   align-items: center;
   justify-content: center;
   line-height: 2vh;
-  margin-top: 0.5vh;
+  margin-top: 0.7vh;
 }
