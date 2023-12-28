@@ -98,7 +98,21 @@
 }
 
 .album-cover-logos {
-  width: 25vw;
-  margin-left: auto;
-  margin-top: 1vh;
+  position: absolute;
+  bottom: 1.5vh;
+  left: 4vw;
+  width: 20vw;
+  height: 3vh;
+  z-index: 1;
+}
+
+.album-cover-copyright {
+  position: absolute;
+  bottom: 1vh;
+  left: 31vw;
+  height: 3vh;
+  line-height: 3vh;
+  color: white;
+  z-index: 1;
+  font-size: 7px;
 }
