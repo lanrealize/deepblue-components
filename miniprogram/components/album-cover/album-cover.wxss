@@ -7,10 +7,9 @@
   align-items: center;
   position: relative;
   width: 90vw;
-  margin-top: 3vh;
 }
 
-.album-cover-main {
+.album-cover-main-root {
   margin-left: auto;
   font-size: 0;
   position: relative;
@@ -18,30 +17,8 @@
 
 .album-cover-image {
   width: 75vw;
-  height: 25vh;
+  height: 54vw;
   border-radius: 0.5rem;
-}
-
-.album-cover-amount::before {
-  position: absolute;
-  z-index: 1;
-  font-size: 14px;
-  height: 20px;
-  top: 1.5vh;
-  left: 4vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  backdrop-filter: blur(9px);
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-}
-
-.album-cover-amount {
-  /* position: absolute; */
-  z-index: 1;
-  font-size: 14px;
-  height: 20px;
-  top: 1.5vh;
-  left: 4vw;
 }
 
 .album-cover-title {
@@ -62,7 +39,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 0.7vh;
-  /* font-weight: bold; */
 }
 
 .album-cover-logos {
@@ -82,10 +58,10 @@
   line-height: 3vh;
   color: white;
   z-index: 1;
-  font-size: 6px;
+  font-size: 0.712vh;
 }
 
-.album-cover-white-bg {
+.album-cover-black-bg {
   position: absolute;
   height: 3vh;
   width: 70vw;
@@ -102,14 +78,14 @@
   top: 1.35vh;
   right: 1.5vh;
   height: 3vh;
-  width: 13.5vw;
+  width: 6.3vh;
   border-radius: 5px;
 }
 
 .album-cover-amount-icon {
   position: relative;
-  width: 20px; 
-  height: 20px;
+  width: 2.4vh; 
+  height: 2.4vh;
   top: 0.35vh;
   left: 0.6vh;
   opacity: 0.7;
@@ -117,8 +93,15 @@
 
 .album-cover-amount-text {
   color: white;
-  font-size: 15px;
+  font-size: 1.8vh;
   position: absolute;
   top: 0.35vh;
   left: 3.5vh;
+}
+
+.album-cover-line {
+  height: 1px;
+  background-color: rgb(240, 240, 240);
+  margin: 2vh 2vh;
+  width: 100vw;
 }

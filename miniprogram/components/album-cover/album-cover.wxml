@@ -1,6 +1,6 @@
 <view class="album-cover-root">
   <!-- <view class="album-cover-title">主标题</view> -->
-  <view class="album-cover-main">
+  <view class="album-cover-main-root">
     <image src="{{imageUrl}}" mode="aspectFill" class="album-cover-image"></image>
     <view class="album-cover-amount-root">
       <image src="/assets/icons/images.svg" class="album-cover-amount-icon"></image>
@@ -8,6 +8,7 @@
     </view>
     <image src="/assets/logos-white-removed.png" mode="aspectFill" class="album-cover-logos"></image>
     <view class="album-cover-copyright">这是一个相对较长的描述还需要再长一点再长一点一点点</view>
-    <view class="album-cover-white-bg"></view>
+    <view class="album-cover-black-bg"></view>
   </view>
+  <view class="album-cover-line"></view>
 </view>
