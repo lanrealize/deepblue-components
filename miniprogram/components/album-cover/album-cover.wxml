@@ -1,7 +1,7 @@
 <view class="album-cover-root">
-  <view class="album-cover-title">主标题</view>
+  <!-- <view class="album-cover-title">主标题</view> -->
   <view class="album-cover-main">
-    <image src="/assets/trip2.jpg" mode="aspectFill" class="album-cover-image"></image>
+    <image src="{{imageUrl}}" mode="aspectFill" class="album-cover-image"></image>
     <view class="album-cover-amount-root">
       <image src="/assets/icons/images.svg" class="album-cover-amount-icon"></image>
       <view class="album-cover-amount-text">16</view>

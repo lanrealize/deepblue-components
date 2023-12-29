@@ -7,6 +7,7 @@
   align-items: center;
   position: relative;
   width: 90vw;
+  margin-top: 3vh;
 }
 
 .album-cover-main {
@@ -75,7 +76,7 @@
 
 .album-cover-copyright {
   position: absolute;
-  bottom: 0.55vh;
+  bottom: 0.5vh;
   right: 4vw;
   height: 3vh;
   line-height: 3vh;
