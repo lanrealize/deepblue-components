@@ -43,39 +43,6 @@
   left: 4vw;
 }
 
-.hall-add-button::before {
-  content: '';
-
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 10vh;
-  width: 10vh;
-  border-radius: 50%;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  backdrop-filter: blur(9px);
-  background-color: rgba(0, 0, 0, 0.3);
-
-  z-index: -1;
-}
-
-.hall-add-button {
-  text-align: center;
-  line-height: 10vh;
-
-  position: absolute;
-  bottom: 5vh;
-  right: 5vh;
-  height: 10vh;
-  width: 10vh;
-
-  font-size: 14px;
-  color: white;
-  z-index: 2;
-}
-
-
 .album-cover-title {
   width: 74vw;
   margin-top: 1vh;
@@ -101,18 +68,56 @@
   position: absolute;
   bottom: 1.5vh;
   left: 4vw;
-  width: 20vw;
-  height: 3vh;
+  width: 15vw;
+  height: 2vh;
   z-index: 1;
 }
 
 .album-cover-copyright {
   position: absolute;
-  bottom: 1vh;
-  left: 31vw;
+  bottom: 0.55vh;
+  right: 4vw;
   height: 3vh;
   line-height: 3vh;
   color: white;
   z-index: 1;
-  font-size: 7px;
+  font-size: 6px;
+}
+
+.album-cover-white-bg {
+  position: absolute;
+  height: 3vh;
+  width: 70vw;
+  background-color: #303030;
+  bottom: 0.6vh;
+  left: 2vw;
+  filter: blur(9px);
+  opacity: 0.5;
+}
+
+.album-cover-amount-root {
+  position: absolute;
+  background-color: rgba(56, 56, 56, 0.2);
+  top: 1.35vh;
+  right: 1.5vh;
+  height: 3vh;
+  width: 13.5vw;
+  border-radius: 5px;
+}
+
+.album-cover-amount-icon {
+  position: relative;
+  width: 20px; 
+  height: 20px;
+  top: 0.35vh;
+  left: 0.6vh;
+  opacity: 0.7;
+}
+
+.album-cover-amount-text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 0.35vh;
+  left: 3.5vh;
 }
