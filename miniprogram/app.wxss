@@ -15,5 +15,6 @@ page {
   --main-font-size: 14px;
   --sub-font-size: 12px;
 
-  --font-color: #004080;
+  /* --font-color: #24385B; */
+  --font-color: #304870;
 }

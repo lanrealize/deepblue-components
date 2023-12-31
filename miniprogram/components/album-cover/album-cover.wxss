@@ -15,26 +15,49 @@
   position: relative;
 }
 
+.album-cover-main-title{
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+.album-cover-sub-title{
+  position: absolute;
+  top: 2.5vh;
+  left: 0vw;
+  font-size: 7.5px;
+  color: black;
+  width: 18VW;
+}
+
+.album-cover-location {
+  position: absolute;
+  top: 6.5vh;
+  left: 0vw;
+}
+
 .album-cover-image {
-  width: 75vw;
+  width: 70vw;
   height: 54vw;
   border-radius: 0.5rem;
 }
 
 .album-cover-title {
   width: 74vw;
-  margin-top: 1vh;
   font-weight: bold;
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-bottom: 0.7vh;
-  color: var(--primary-color);
+  color: rgb(76, 98, 150);
 }
 .album-cover-description {
-  font-size: 14px;
+  font-size: 12px;
   height: 2vh;
-  width: 74vw;
+  width: 75vw;
   margin-left: auto;
   align-items: center;
   justify-content: center;
@@ -95,13 +118,13 @@
   color: white;
   font-size: 1.8vh;
   position: absolute;
-  top: 0.35vh;
+  top: 0.23vh;
   left: 3.5vh;
 }
 
 .album-cover-line {
   height: 1px;
-  background-color: rgb(240, 240, 240);
+  /* background-color: rgb(240, 240, 240); */
   margin: 2vh 2vh;
   width: 100vw;
 }

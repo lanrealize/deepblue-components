@@ -1,5 +1,7 @@
 <view class="album-cover-root">
-  <!-- <view class="album-cover-title">主标题</view> -->
+  <!-- <view class="album-cover-title">这是一本相册</view> -->
+  <view class="album-cover-main-title">主标题</view>
+  <view class="album-cover-sub-title">这是一个很长的副标题，用于描述此相册的内容。</view>
   <view class="album-cover-main-root">
     <image src="{{imageUrl}}" mode="aspectFill" class="album-cover-image"></image>
     <view class="album-cover-amount-root">
@@ -7,8 +9,9 @@
       <view class="album-cover-amount-text">16</view>
     </view>
     <image src="/assets/logos-white-removed.png" mode="aspectFill" class="album-cover-logos"></image>
-    <view class="album-cover-copyright">这是一个相对较长的描述还需要再长一点再长一点一点点</view>
+    <!-- <view class="album-cover-copyright">这是一个相对较长的描述还需要再长一点再长一点一点点</view> -->
     <view class="album-cover-black-bg"></view>
   </view>
+  <!-- <view class="album-cover-description">我们在这里提供一段描述。</view> -->
   <view class="album-cover-line"></view>
 </view>
