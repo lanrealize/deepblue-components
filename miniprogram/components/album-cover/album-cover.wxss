@@ -19,14 +19,14 @@
   position: absolute;
   top: 0vh;
   left: 0vw;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: var(--font-color);
 }
 
 .album-cover-sub-title{
   position: absolute;
-  top: 2.5vh;
+  top: 3.3vh;
   left: 0vw;
   font-size: 7.5px;
   color: black;
