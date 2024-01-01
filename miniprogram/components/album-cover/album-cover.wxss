@@ -31,6 +31,7 @@
   font-size: 7.5px;
   color: black;
   width: 18VW;
+  line-height: 1.5;
 }
 
 .album-cover-location {
@@ -87,7 +88,7 @@
 .album-cover-black-bg {
   position: absolute;
   height: 3vh;
-  width: 70vw;
+  width: 65vw;
   background-color: #303030;
   bottom: 0.6vh;
   left: 2vw;
@@ -124,7 +125,7 @@
 
 .album-cover-line {
   height: 1px;
-  /* background-color: rgb(240, 240, 240); */
+  background-color: rgb(240, 240, 240);
   margin: 2.5vh 2.5vh;
   width: 100vw;
 }

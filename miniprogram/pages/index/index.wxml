@@ -4,5 +4,6 @@
     <!-- <pic-header></pic-header> -->
     <album-cover imageUrl="/assets/trip.jpg"></album-cover>
     <album-cover imageUrl="/assets/trip2.jpg"></album-cover>
+    <album-cover imageUrl="/assets/trip.jpg"></album-cover>
   </view>
 </scroll-view>
