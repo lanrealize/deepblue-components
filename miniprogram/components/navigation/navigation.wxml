@@ -1,0 +1,4 @@
+<!--components/navigation/navigation.wxml-->
+<view class="navigation-root" style="padding-top: {{menuTop}}px; line-height: {{menuHeight}}px;">
+  相册列表
+</view>

@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "pic-header": "/components/pic-header/pic-header",
-    "album-cover": "/components/album-cover/album-cover"
+    "album-cover": "/components/album-cover/album-cover",
+    "navigation": "/components/navigation/navigation"
   },
-  "navigationBarTextStyle": "white"
+  "navigationBarTextStyle": "black"
 }

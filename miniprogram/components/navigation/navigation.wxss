@@ -1,0 +1,6 @@
+/* components/navigation/navigation.wxss */
+.navigation-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

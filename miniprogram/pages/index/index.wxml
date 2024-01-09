@@ -1,9 +1,6 @@
 <!--index.wxml-->
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    <!-- <pic-header></pic-header> -->
-    <album-cover imageUrl="/assets/trip.jpg"></album-cover>
-    <album-cover imageUrl="/assets/trip2.jpg"></album-cover>
-    <album-cover imageUrl="/assets/trip.jpg"></album-cover>
+    <navigation></navigation>
   </view>
 </scroll-view>
