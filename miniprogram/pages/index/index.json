@@ -2,5 +2,6 @@
   "usingComponents": {
     "pic-header": "/components/pic-header/pic-header",
     "album-cover": "/components/album-cover/album-cover"
-  }
+  },
+  "navigationBarTextStyle": "white"
 }
