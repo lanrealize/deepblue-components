@@ -4,5 +4,6 @@
     "album-cover": "/components/album-cover/album-cover",
     "navigation": "/components/navigation/navigation"
   },
-  "navigationBarTextStyle": "black"
+  "navigationBarTextStyle": "black",
+  "disableScroll": true
 }
