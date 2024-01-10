@@ -1,4 +1,4 @@
 <!--components/navigation/navigation.wxml-->
 <view class="navigation-root">
-  <view style="padding-top: {{menuTop}}px; line-height: {{menuHeight}}px;">相册列表</view>
+  <view style="padding-top: {{menuTop}}px; line-height: {{menuHeight}}px; font-size: 35rpx;">{{title}}</view>
 </view>

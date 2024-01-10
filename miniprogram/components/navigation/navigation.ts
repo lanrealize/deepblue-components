@@ -1,4 +1,6 @@
 // components/navigation/navigation.ts
+import { Text } from "../../config/text"
+
 Component({
 
   /**
@@ -12,7 +14,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    title: Text.Albums.Title
   },
 
   /**
