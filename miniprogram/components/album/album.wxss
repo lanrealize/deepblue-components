@@ -1,1 +1,52 @@
 /* components/album/album.wxss */
+
+.album-root {
+  width: 90vw;
+  height: 68vw;
+  box-sizing: border-box;
+  background-color: white;
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+
+  padding-top: 2.75vw;
+  padding-bottom: 2.75vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+
+  /* display: grid;
+  grid-template-rows: 5.73vw, 1.74vw, 3.74vw, 2.74vw, 12.45vw, 2.49vw, 12.45vw, 2.99vw, 5.98vw, 8.72vw;
+  grid-template-columns: 37.29vw, 2.49vw, 12.43vw, 2.49vw, 12.43vw, 2.49vw, 12.43vw;
+  grid-template-areas: "mt mt mt mt mt mt mt"
+                       ". . . . . . ."
+                       "st st st st st st st"
+                       ". . . . . . ."
+                       "" */
+
+}
+
+.album-main-title {
+    height: 7vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.album-main-title-part0 {
+  font-size: 40rpx;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.album-main-title-part1 {
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-top: auto;
+  padding-left: 2vw;
+}
+
+.album-description {
+  height: 3.75vw;
+  margin-top: 0.3vw;
+  font-size: 20rpx;
+  color: #505050;
+}

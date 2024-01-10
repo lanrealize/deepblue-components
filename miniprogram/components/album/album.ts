@@ -12,7 +12,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    mainTitlePart1: "8月",
+    mainTitlePart2: "2023·广州"
   },
 
   /**

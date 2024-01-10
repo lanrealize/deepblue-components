@@ -1,2 +1,8 @@
 <!--components/album/album.wxml-->
-<text>components/album/album.wxml</text>
+<view class="album-root">
+  <view class="album-main-title">
+    <view class="album-main-title-part0">8月</view>
+    <view class="album-main-title-part1">2023·广州</view>
+  </view>
+  <view class="album-description">我开始没有了期待，但如果你来，我一定会喜笑颜开。</view>
+</view>

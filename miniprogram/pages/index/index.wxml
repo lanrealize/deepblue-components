@@ -2,5 +2,6 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <navigation></navigation>
+    <album></album>
   </view>
 </scroll-view>
