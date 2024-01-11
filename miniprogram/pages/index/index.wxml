@@ -1,7 +1,13 @@
 <!--index.wxml-->
-<scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container">
-    <navigation></navigation>
-    <album></album>
-  </view>
-</scroll-view>
+<view style="display: flex; flex-direction: column; height: 100vh;">
+  <navigation></navigation>
+  <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
+    <view class="general-container">
+      <album></album>
+      <album></album>
+      <album></album>
+      <album></album>
+    </view>
+  </scroll-view>
+</view>
+
