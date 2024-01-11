@@ -16,7 +16,7 @@
         <view style="grid-area: pic4; background-color: darkgray;"></view>
         <view style="grid-area: pic5; background-color: darkgray;"></view>
       </view>
-      <view class="album-main-copyright">© 该相册版权属于作者，如需转载以及商务合作请联系作者。</view>
+      <view class="album-main-copyright"><p>© 该相册版权属于作者，如需转载以及商务合作请联系作者。<span><image src='/assets/logos.png' style="height: 1.5vw; padding-left: vw;" mode="heightFix"></image></span></p></view>
       <view class="album-main-button"></view>
     </view>
   </view>
