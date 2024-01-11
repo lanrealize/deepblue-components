@@ -1,4 +1,6 @@
 <!--components/navigation/navigation.wxml-->
 <view class="navigation-root">
   <view style="padding-top: {{menuTop}}px; line-height: {{menuHeight}}px; font-size: 35rpx;">{{title}}</view>
+  <view class="navigation-seperate-line"></view>
+  <view class="navigation-subtitle" style="line-height: {{menuHeight * 0.65}}px;">albums</view>
 </view>
