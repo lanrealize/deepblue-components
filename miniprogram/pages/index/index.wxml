@@ -4,9 +4,6 @@
   <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
     <view class="general-container">
       <album></album>
-      <album></album>
-      <album></album>
-      <album></album>
     </view>
   </scroll-view>
 </view>

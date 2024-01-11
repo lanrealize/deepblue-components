@@ -5,4 +5,19 @@
     <view class="album-main-title-part1">2023·广州</view>
   </view>
   <view class="album-description">我开始没有了期待，但如果你来，我一定会喜笑颜开。</view>
+  <view class="album-main">
+    <view class="album-main-mainpic"></view>
+    <view class="album-main-others">
+      <view class="album-main-subpics">
+        <view style="grid-area: pic0; background-color: darkgray;"></view>
+        <view style="grid-area: pic1; background-color: darkgray;"></view>
+        <view style="grid-area: pic2; background-color: darkgray;"></view>
+        <view style="grid-area: pic3; background-color: darkgray;"></view>
+        <view style="grid-area: pic4; background-color: darkgray;"></view>
+        <view style="grid-area: pic5; background-color: darkgray;"></view>
+      </view>
+      <view class="album-main-copyright">© 该相册版权属于作者，如需转载以及商务合作请联系作者。</view>
+      <view class="album-main-button"></view>
+    </view>
+  </view>
 </view>
