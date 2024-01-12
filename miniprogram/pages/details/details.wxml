@@ -1,8 +1,7 @@
 <!--pages/details/details.wxml-->
 <view style="display: flex; flex-direction: column; height: 100vh;">
   <navigation page="details"></navigation>
-  <top-menu></top-menu>
-  <!-- <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
+  <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
     <view class="general-container">
       <album></album>
       <album></album>
@@ -10,8 +9,10 @@
       <album></album>
       <album></album>
     </view>
-  </scroll-view> -->
+  </scroll-view>
 </view>
+<top-menu></top-menu>
+
 <!-- <view style="position: fixed; bottom: 0;">
   <index-bottom-menu></index-bottom-menu>
 </view> -->

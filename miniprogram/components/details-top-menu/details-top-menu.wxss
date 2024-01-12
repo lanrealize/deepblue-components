@@ -1,11 +1,12 @@
 /* components/details-top-menu/details-top-menu.wxss */
 .details-top-menu-root {
-  height: 5vh;
+  height: 6vh;
   width: 96.5vw;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(4px);
   padding-left: 1.75vw;
   padding-right: 1.75vw;
+  position: fixed;
 }
 
 .details-top-menu-main {
@@ -17,10 +18,10 @@
 }
 
 .details-top-menu-item-container {
-  line-height: 5vh;
   display: flex;
   align-content: center;
   justify-content: center;
+  margin: auto;
 }
 
 .details-top-menu-item0 {

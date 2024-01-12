@@ -20,5 +20,15 @@ Component({
    */
   methods: {
 
+  },
+
+  lifetimes: {
+    attached: function () {
+      const app: IAppOption = getApp();
+      this.setData({
+        top: app.globalData.navigationInfo.menuHeight + app.globalData.navigationInfo.menuTop
+      })
+      // console.log(this.data.menuHeight)
+    },
   }
 })
