@@ -1,1 +1,51 @@
 /* components/photo/photo.wxss */
+.photo-root {
+  width: 85vw;
+
+  display: grid;
+  grid-template-columns: 2vw 83vw;
+  grid-template-areas: "line main";
+}
+
+.photo-line {
+  grid-area: line;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-line-point {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 1vw;
+  background-color: black;
+}
+
+.photo-line-line {
+  margin: auto;
+  width: 0;
+  height: 30vh;
+  background-color: black;
+  margin-top: 0.5vh;
+  border: 0.5px solid rgba(0, 0, 0, 1);
+}
+
+.photo-main {
+  grid-area: main;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.3vw;
+}
+
+.photo-title {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+
+.photo-subtitle {
+  font-size: 24rpx;
+  font-weight: 500;
+  padding-left: 1.5vw;
+  color: rgb(128, 128, 128)
+}

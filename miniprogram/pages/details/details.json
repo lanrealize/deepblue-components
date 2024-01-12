@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "navigation": "/components/navigation/navigation",
-    "album": "/components/album/album",
+    "photo": "/components/photo/photo",
     "top-menu": "/components/details-top-menu/details-top-menu"
   },
   "disableScroll": true
