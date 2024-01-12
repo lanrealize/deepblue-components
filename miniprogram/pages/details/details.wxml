@@ -2,12 +2,8 @@
 <view style="display: flex; flex-direction: column; height: 100vh;">
   <navigation page="details"></navigation>
   <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
+    <view style="height: 6vh; width: 100vw; margin-top: -6px;"></view>
     <view class="general-container">
-      <album></album>
-      <album></album>
-      <album></album>
-      <album></album>
-      <album></album>
     </view>
   </scroll-view>
 </view>
