@@ -76,8 +76,8 @@
   grid-area: copyright;
   font-size: 16rpx;
   line-height: 3.5vw;
-  margin-top: 3vw;
-  margin-bottom: 1.5vw;
+  margin-top: 3.3vw;
+  margin-bottom: 1.2vw;
 }
 
 .album-main-button {
