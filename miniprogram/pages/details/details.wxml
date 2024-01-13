@@ -4,11 +4,11 @@
   <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
     <view style="height: 6vh; width: 100vw; margin-top: -6px;"></view>
     <view class="general-container">
-      <photo></photo>
-      <photo></photo>
-      <photo></photo>
-      <photo></photo>
-      <photo></photo>
+      <photo imageUrl="/assets/trip.jpg"></photo>
+      <photo imageUrl="/assets/trip3.png"></photo>
+      <photo imageUrl="/assets/trip2.jpg"></photo>
+      <photo imageUrl="/assets/trip3.png"></photo>
+      <photo imageUrl="/assets/trip.jpg"></photo>
     </view>
   </scroll-view>
 </view>
