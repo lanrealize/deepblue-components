@@ -4,18 +4,15 @@
 
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-areas: "title main";
+  grid-template-areas: "title" "main";
 }
 
 .photo-title {
   grid-area: title;
-  display: grid;
-  grid-template-columns: 2vw 3vw 80vw;
-  grid-template-areas: "point . text";
 }
 
 .photo-title-point {
-  grid-area: point;
+  grid-area: photo-left;
   margin: auto;
 }
 
@@ -27,7 +24,7 @@
 }
 
 .photo-title-text {
-  grid-area: text;
+  grid-area: photo-right;
   font-size: 32rpx;
   font-weight: 500;
 }
@@ -39,38 +36,41 @@
   color: rgb(128, 128, 128)
 }
 
-.photo-line {
-  grid-area: line;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.photo-line-line {
-  margin: auto;
-  width: 0;
-  height: 30vh;
-  background-color: black;
-  margin-top: 0.5vh;
-  border: 0.5px solid rgba(0, 0, 0, 1);
-}
-
 .photo-main {
   grid-area: main;
+}
 
+.photo-main-line {
+  grid-area: photo-left;
+  margin: auto;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  /* margin-top: -0.5vh; */
+  border: 0.8px solid rgba(0, 0, 0, 1);
+}
+
+.photo-main-main {
+  grid-area: photo-right;
   display: flex;
   flex-direction: column;
-  padding-left: 3.3vw;
+  justify-content: center;
+  align-items: center;
 }
 
-.photo-title {
-  font-size: 32rpx;
-  font-weight: 500;
+.photo-main-main-text {
+  font-size: 22rpx;
+  color: #808080;
+  padding-top: 0.6vh;
+  padding-bottom: 1.2vh;
 }
 
-.photo-subtitle {
-  font-size: 24rpx;
-  font-weight: 500;
-  padding-left: 1.5vw;
-  color: rgb(128, 128, 128)
+.photo-main-main-placeholder {
+  height: 1vh;
+}
+
+.photo-column-container {
+  display: grid;
+  grid-template-columns: 2vw 3vw 80vw;
+  grid-template-areas: "photo-left . photo-right";
 }

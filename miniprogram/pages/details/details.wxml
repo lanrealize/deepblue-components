@@ -5,6 +5,10 @@
     <view style="height: 6vh; width: 100vw; margin-top: -6px;"></view>
     <view class="general-container">
       <photo></photo>
+      <photo></photo>
+      <photo></photo>
+      <photo></photo>
+      <photo></photo>
     </view>
   </scroll-view>
 </view>

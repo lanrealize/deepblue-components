@@ -1,6 +1,6 @@
 <!--components/photo/photo.wxml-->
 <view class="photo-root">
-  <view class="photo-title">
+  <view class="photo-title photo-column-container">
     <view class="photo-title-point">
       <view class="photo-title-point-instance"></view>
     </view>
@@ -8,11 +8,14 @@
       <p>16:28<span class="photo-title-text-subtext">11月23日</span></p>
     </view>
   </view>
-  <!-- <view class="photo-line">
-    <view class="photo-line-point"></view>
-    <view class="photo-line-line"></view>
+  <view class="photo-main photo-column-container">
+    <view class="photo-main-line"></view>
+    <view class="photo-main-main">
+      <view class="photo-main-main-text">这是该照片的描述，这段描述有可能会很长占两行，也有可能只占一行。</view>
+      <view class="photo-main-main-photo">
+        <image src="/assets/trip.jpg"></image>
+      </view>
+      <view class="photo-main-main-placeholder"></view>
+    </view>
   </view>
-  <view class="photo-main">
-    <view class="photo-title"><p>16:28<span class="photo-subtitle">11月23日</span></p></view>
-  </view> -->
 </view>
