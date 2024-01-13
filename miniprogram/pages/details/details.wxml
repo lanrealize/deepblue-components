@@ -5,15 +5,14 @@
     <view style="height: 6vh; width: 100vw; margin-top: -6px;"></view>
     <view class="general-container">
       <photo imageUrl="/assets/trip.jpg"></photo>
-      <photo imageUrl="/assets/trip3.png"></photo>
+      <photo imageUrl="/assets/trip3.jpg"></photo>
       <photo imageUrl="/assets/trip2.jpg"></photo>
-      <photo imageUrl="/assets/trip3.png"></photo>
+      <photo imageUrl="/assets/trip3.jpg"></photo>
       <photo imageUrl="/assets/trip.jpg"></photo>
     </view>
   </scroll-view>
+  <view style="position: relative; bottom: 0;">
+    
+  </view>
 </view>
 <top-menu></top-menu>
-
-<!-- <view style="position: fixed; bottom: 0;">
-  <index-bottom-menu></index-bottom-menu>
-</view> -->
