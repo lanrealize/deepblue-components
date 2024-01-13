@@ -2,7 +2,7 @@
 <view style="display: flex; flex-direction: column; height: 100vh;">
   <navigation page="details"></navigation>
   <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
-    <view style="height: 6vh; width: 100vw; margin-top: -6px;"></view>
+    <view style="height: 6vh; width: 100vw;"></view>
     <view class="general-container">
       <photo imageUrl="/assets/trip.jpg"></photo>
       <photo imageUrl="/assets/trip3.jpg"></photo>
