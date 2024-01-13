@@ -1,0 +1,77 @@
+/* components/details-bottom-menu/details-bottom-menu.wxss */
+.details-bottom-menu-root {
+  height: 8.5vh;
+  width: 100vw;
+}
+
+.details-bottom-menu-main {
+  height: 5.5vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 50vw 15vw 15vw 20vw;
+  grid-template-areas: "title play share add"
+}
+
+.details-bottom-menu-main-title {
+  grid-area: title;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.details-bottom-menu-main-title-image {
+  height: 7.6vw;
+  width: 7.6vw;
+  border-radius: 3.8vw;
+  padding-left: 3.8vw;
+}
+
+.details-bottom-menu-main-title-text {
+  flex-direction: column;
+  padding-left: 2.5vw;
+}
+
+.details-bottom-menu-main-title-text-main {
+  font-size: 24rpx;
+}
+
+.details-bottom-menu-main-title-text-sub {
+  font-size: 16rpx;
+}
+
+.details-bottom-menu-main-play {
+  grid-area: play;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-bottom-menu-main-share {
+  grid-area: share;
+}
+.details-bottom-menu-add {
+  grid-area: add;
+  font-size: 24rpx;
+  background-color: black;
+  color: white;
+}
+
+.details-bottom-menu-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-bottom-menu-icon {
+  height: 6vw;
+  width: 6vw;
+}
+
+.details-bottom-menu-icon-text {
+  font-size: 18rpx;
+  color: #808080;
+}

@@ -12,7 +12,7 @@
     </view>
   </scroll-view>
   <view style="position: relative; bottom: 0;">
-    
+    <bottom-menu></bottom-menu>
   </view>
 </view>
 <top-menu></top-menu>
