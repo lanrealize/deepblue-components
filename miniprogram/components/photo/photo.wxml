@@ -1,10 +1,18 @@
 <!--components/photo/photo.wxml-->
 <view class="photo-root">
-  <view class="photo-line">
+  <view class="photo-title">
+    <view class="photo-title-point">
+      <view class="photo-title-point-instance"></view>
+    </view>
+    <view class="photo-title-text">
+      <p>16:28<span class="photo-title-text-subtext">11月23日</span></p>
+    </view>
+  </view>
+  <!-- <view class="photo-line">
     <view class="photo-line-point"></view>
     <view class="photo-line-line"></view>
   </view>
   <view class="photo-main">
     <view class="photo-title"><p>16:28<span class="photo-subtitle">11月23日</span></p></view>
-  </view>
+  </view> -->
 </view>

@@ -3,8 +3,40 @@
   width: 85vw;
 
   display: grid;
-  grid-template-columns: 2vw 83vw;
-  grid-template-areas: "line main";
+  grid-template-rows: auto auto;
+  grid-template-areas: "title main";
+}
+
+.photo-title {
+  grid-area: title;
+  display: grid;
+  grid-template-columns: 2vw 3vw 80vw;
+  grid-template-areas: "point . text";
+}
+
+.photo-title-point {
+  grid-area: point;
+  margin: auto;
+}
+
+.photo-title-point-instance {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 1vw;
+  background-color: black;
+}
+
+.photo-title-text {
+  grid-area: text;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+
+.photo-title-text-subtext {
+  font-size: 24rpx;
+  font-weight: 500;
+  padding-left: 1.5vw;
+  color: rgb(128, 128, 128)
 }
 
 .photo-line {
@@ -12,13 +44,6 @@
 
   display: flex;
   flex-direction: column;
-}
-
-.photo-line-point {
-  width: 2vw;
-  height: 2vw;
-  border-radius: 1vw;
-  background-color: black;
 }
 
 .photo-line-line {
