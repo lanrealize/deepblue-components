@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view style="display: flex; flex-direction: column; height: 100vh;">
-  <navigation></navigation>
+  <navigation page="index"></navigation>
   <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
     <view class="general-container">
       <album></album>
