@@ -99,3 +99,7 @@
   grid-template-columns: 2vw 3vw 84vw;
   grid-template-areas: "photo-left . photo-right";
 }
+
+.photo-end-placeholder {
+  height: 1.5vh;
+}

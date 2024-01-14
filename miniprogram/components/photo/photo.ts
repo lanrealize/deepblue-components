@@ -5,7 +5,27 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    title: {
+      type: String,
+      value: undefined
+    },
+    subTitle: {
+      type: String,
+      value: undefined
+    },
+    location: {
+      type: String,
+      value: undefined
+    },
+    description: {
+      type: String,
+      value: undefined
+    },
     imageUrl: {
+      type: String,
+      value: undefined
+    },
+    type: {
       type: String,
       value: undefined
     }
