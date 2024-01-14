@@ -66,8 +66,29 @@
 }
 
 .photo-main-main-photo {
-    max-width: 80vw;
-    max-height: 30vh;
+  position: relative;
+  max-width: 80vw;
+  max-height: 30vh;
+}
+
+.photo-main-main-photo-logos {
+  position: absolute;
+  bottom: 1.5vh;
+  right: 3vw;
+  width: 15vw;
+  height: 2vh;
+  z-index: 1;
+}
+
+.photo-main-main-photo-logos-bg {
+  position: absolute;
+  bottom: 1.5vh;
+  right: 3vw;
+  width: 15vw;
+  height: 2vh;
+  background-color: #303030;
+  filter: blur(9px);
+  opacity: 0.5;
 }
 
 .photo-main-main-placeholder {

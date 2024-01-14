@@ -12,7 +12,10 @@
     <view class="photo-main-line"></view>
     <view class="photo-main-main">
       <view class="photo-main-main-text">这是该照片的描述，这段描述有可能会很长占两行，也有可能只占一行。</view>
-      <image src="{{imageUrl}}" mode="heightFix" class="photo-main-main-photo"></image>
+      <image src="{{imageUrl}}" mode="heightFix" class="photo-main-main-photo">
+        <image src="/assets/logos-white-removed.png" mode="aspectFill" class="photo-main-main-photo-logos"></image>
+        <view class="photo-main-main-photo-logos-bg"></view>
+      </image>
       <view class="photo-main-main-placeholder"></view>
     </view>
   </view>
