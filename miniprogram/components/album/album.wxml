@@ -1,17 +1,17 @@
 <!--components/album/album.wxml-->
 <view class="album-root">
   <view class="album-main-title">
-    <view class="album-main-title-part0">8月</view>
-    <view class="album-main-title-part1">2023·广州</view>
+    <view class="album-main-title-part0">{{title}}</view>
+    <view class="album-main-title-part1">{{subTitle}}</view>
   </view>
-  <view class="album-description">我开始没有了期待，但如果你来，我一定会喜笑颜开。</view>
+  <view class="album-description">{{description}}</view>
   <view class="album-main">
-    <view class="album-main-mainpic"></view>
+    <image class="album-main-mainpic" src="{{mainImageUrl}}" mode="aspectFill"></image>
     <view class="album-main-others">
       <view class="album-main-subpics">
-        <view style="grid-area: pic0; background-color: darkgray;"></view>
-        <view style="grid-area: pic1; background-color: darkgray;"></view>
-        <view style="grid-area: pic2; background-color: darkgray;"></view>
+        <image class="album-main-subpics-instance" style="grid-area: pic0;" src="{{subImageUrls[0]}}" mode="aspectFill"></image>
+        <image class="album-main-subpics-instance" style="grid-area: pic1;" src="{{subImageUrls[1]}}" mode="aspectFill"></image>
+        <image class="album-main-subpics-instance" style="grid-area: pic2;" src="{{subImageUrls[2]}}" mode="aspectFill"></image>
         <view style="grid-area: pic3; background-color: darkgray;"></view>
         <view style="grid-area: pic4; background-color: darkgray;"></view>
         <view style="grid-area: pic5; background-color: darkgray;"></view>

@@ -5,15 +5,33 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    title: {
+      type: String,
+      value: undefined
+    },
+    subTitle: {
+      type: String,
+      value: undefined
+    },
+    description: {
+      type: String,
+      value: undefined
+    },
+    mainImageUrl: {
+      type: String,
+      value: undefined
+    },
+    subImageUrls: {
+      type: Array,
+      value: undefined
+    }
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-    mainTitlePart1: "8月",
-    mainTitlePart2: "2023·广州"
+
   },
 
   /**

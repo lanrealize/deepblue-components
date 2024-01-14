@@ -3,7 +3,7 @@
   <navigation page="index"></navigation>
   <scroll-view class="scrollarea" scroll-y type="list" style="flex: 1; height: 0;">
     <view class="general-container">
-      <album></album>
+      <album title="8月" subTitle="2023·广州" description="我开始没有了期待，但如果你来，我一定会喜笑颜开。" subImageUrls="{{['/assets/trip.jpg', '/assets/trip2.jpg', '/assets/trip3.jpg']}}" mainImageUrl="/assets/trip3.jpg"></album>
       <album></album>
       <album></album>
       <album></album>
