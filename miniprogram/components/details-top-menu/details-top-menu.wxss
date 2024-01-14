@@ -22,6 +22,15 @@
   align-content: center;
   justify-content: center;
   margin: auto;
+  flex-direction: column;
+}
+
+.details-top-menu-item-selected {
+  width: 2vh;
+  height: 0.2vh;
+  background-color: black;
+  margin: auto;
+  margin-top: 0.5vh;
 }
 
 .details-top-menu-item0 {
