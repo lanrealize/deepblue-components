@@ -11,8 +11,6 @@
   display: grid;
   grid-template-columns: 50vw 15vw 15vw 20vw;
   grid-template-areas: "title play share add";
-
-  border: 0.2px solid rgba(230, 230, 230, 1);
 }
 
 .details-bottom-menu-main-title {
@@ -54,6 +52,7 @@
 .details-bottom-menu-main-share {
   grid-area: share;
 }
+
 .details-bottom-menu-add {
   grid-area: add;
   font-size: 24rpx;
@@ -66,8 +65,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
 
-  border-left: 0.2px solid rgba(230, 230, 230, 1);
+.details-bottom-menu-boader {
+  border: 0.2px solid rgba(230, 230, 230, 1);
 }
 
 .details-bottom-menu-icon {
