@@ -1,6 +1,6 @@
 /* components/photo/photo.wxss */
 .photo-root {
-  width: 85vw;
+  width: 90vw;
 
   display: grid;
   grid-template-rows: auto auto;
@@ -67,7 +67,7 @@
 
 .photo-main-main-photo {
   position: relative;
-  max-width: 80vw;
+  max-width: 83vw;
   max-height: 30vh;
 }
 
@@ -97,6 +97,6 @@
 
 .photo-column-container {
   display: grid;
-  grid-template-columns: 2vw 3vw 80vw;
+  grid-template-columns: 2vw 3vw 83vw;
   grid-template-areas: "photo-left . photo-right";
 }
