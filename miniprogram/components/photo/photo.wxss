@@ -73,19 +73,19 @@
 
 .photo-main-main-photo-logos {
   position: absolute;
-  bottom: 1.5vh;
-  right: 3vw;
-  width: 15vw;
-  height: 2vh;
+  bottom: 0.8vh;
+  right: 2vw;
+  width: 7.5vw;
+  height: 1vh;
   z-index: 1;
 }
 
 .photo-main-main-photo-logos-bg {
   position: absolute;
-  bottom: 1.5vh;
-  right: 3vw;
-  width: 15vw;
-  height: 2vh;
+  bottom: 1vh;
+  right: 2vw;
+  width: 7.5vw;
+  height: 0.8vh;
   background-color: #303030;
   filter: blur(9px);
   opacity: 0.5;
