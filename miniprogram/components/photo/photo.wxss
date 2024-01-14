@@ -73,22 +73,21 @@
 
 .photo-main-main-photo-logos {
   position: absolute;
-  bottom: 0.8vh;
-  right: 2vw;
-  width: 7.5vw;
-  height: 1vh;
   z-index: 1;
 }
 
 .photo-main-main-photo-logos-bg {
   position: absolute;
-  bottom: 1vh;
-  right: 2vw;
-  width: 7.5vw;
-  height: 0.8vh;
   background-color: #303030;
   filter: blur(9px);
   opacity: 0.5;
+}
+
+.photo-main-main-photo-logos-size {
+  bottom: 0.8vh;
+  right: 2vw;
+  width: 11.25vw;
+  height: 1vh;
 }
 
 .photo-main-main-placeholder {
