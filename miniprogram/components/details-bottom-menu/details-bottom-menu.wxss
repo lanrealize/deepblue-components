@@ -9,7 +9,7 @@
   width: 100vw;
 
   display: grid;
-  grid-template-columns: 50vw 15vw 15vw 20vw;
+  grid-template-columns: 47vw 15vw 15vw 23vw;
   grid-template-areas: "title play share add";
 }
 
